@@ -1,0 +1,207 @@
+/* Font STYLES */
+@font-face {
+  font-family: ConcertOne;
+  src: url("../fonts/ConcertOne.ttf");
+}
+@font-face {
+  font-family: FredokaOne;
+  src: url("../fonts/FredokaOne.ttf");
+}
+@font-face {
+  font-family: IndieFlower;
+  src: url("../fonts/IndieFlower.ttf");
+}
+@font-face {
+  font-family: ShadowsIntoLight;
+  src: url("../fonts/ShadowsIntoLight.ttf");
+}
+
+body {
+  margin: 0px;
+  background-color: #f6ff00;
+}
+
+html { background-color: #f6ff00; }
+
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
+
+.app {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  display: block;
+  display: flex;
+  justify-content: center;
+  background-color: #f6ff00;
+}
+
+.home {
+  margin: 20px auto;
+  padding: 20px 20px 30px 20px;
+  display: flex;
+  justify-content: center;
+  display: block;
+  max-width: 414px;
+  width: 414px;
+}
+
+.title{
+  margin: 0px;
+  padding-bottom: 15px;
+  border: 0px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #435051;
+  font-family: ConcertOne;
+  text-align: center;
+}
+
+/*.directions{
+  margin: 0px;
+  border: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  color: #435051;
+  text-align: center;
+  font-family: ConcertOne;
+}*/
+
+.question {
+  display: block;
+  margin: auto;
+  resize: none;
+  height: 180px;
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+  font-size: 26px;
+  font-family: ConcertOne;
+  text-align: center;
+  color: #435051;
+}
+
+.options {
+  margin: 16px auto;
+  overflow: hidden;
+  display: block;
+  border-radius: 8px;
+  border: none;
+  font-family: ConcertOne;
+  color: #435051;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  border-radius: 8px;
+  border: none;
+  font-family: ConcertOne;
+  color: #435051;
+  overflow: hidden;
+  margin: 16px auto;
+}
+
+.submit {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  color: #435051;
+  font-size: 20px;
+  font-family: ConcertOne;
+}
+
+.copyButton {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  color: #435051;
+  font-size: 20px;
+  font-family: ConcertOne;
+  background-color: #17d346;
+  margin-top: 15px;
+}
+
+.copyButton:hover {
+  color: #f6ff00;
+}
+
+.link {
+  color: #435051;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.link:hover {
+  color: #f6ff00;
+  text-decoration: none;
+}
+
+.displayQuestion {
+  display: block;
+  margin: 10px auto;
+  padding: 15px;
+  max-height: 250px;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 26px;
+  font-family: ConcertOne;
+  text-align: center;
+  color: #435051;
+  background-color: white;
+  overflow: scroll;
+}
+
+.displayOptions {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  border-radius: 8px;
+  border: none;
+  font-family: ConcertOne;
+  color: #435051;
+  overflow: hidden;
+  margin: 16px auto;
+  text-align: left;
+  background-color: white;
+}
+.displayOptions:hover {
+  color: #435051;
+  background-color: #17d346;
+}
+
+.displayStats {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  border-radius: 8px;
+  border: none;
+  font-family: ConcertOne;
+  color: #435051;
+  overflow: hidden;
+  margin: 16px auto;
+  text-align: left;
+  background-color: white;
+}
+
+/*Media Querries*/
+@media screen and (max-width: 400px){
+  .displayQuestion{
+    font-size: 22px;
+    margin: auto;
+  }
+}
