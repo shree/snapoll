@@ -29,7 +29,7 @@ class Results extends React.Component {
             {String.fromCharCode(65 + idx) +". "+option.value+" ("+option.votes+")(" + ((option.votes/this.state.totalVotes)*100).toFixed(2)+"%)"}
           </div>);
         })}
-        <button className="copyButton"><Link className="link" to='/'>Create Another Poll</Link></button>
+        <button className="copyButton"><a className="link" href='https://snapoll.herokuapp.com'>Create Another Poll</a></button>
       </span>
     );
   }
