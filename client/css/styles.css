@@ -115,7 +115,8 @@ div {
   padding: 15px;
   border-radius: 8px;
   border: none;
-  color: #435051;
+  color: white;
+  background-color: #adadad;
   font-size: 20px;
   font-family: ConcertOne;
 }
