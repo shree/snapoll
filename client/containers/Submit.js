@@ -22,11 +22,11 @@ class Submit extends React.Component {
     return (
       <div className="home">
         <h1 className="title">Your poll was successfully created!</h1>
-        <CopyToClipboard text={"http://localhost:3000/question/"+this.props.match.params.id} onCopy={() => this.setState({copied: true})}>
+        <CopyToClipboard text={"https://snapoll.herokuapp.com/question/"+this.props.match.params.id} onCopy={() => this.setState({copied: true})}>
           {this.state.copied ? <button className="copyButton">Copied</button> : <button className="copyButton">Copy to clipboard</button>}
         </CopyToClipboard>
 
-        <button className="copyButton"><a className="link" href={"http://localhost:3000/question/"+this.props.match.params.id}>Go To Poll</a></button>
+        <button className="copyButton"><a className="link" href={"https://snapoll.herokuapp.com/question/"+this.props.match.params.id}>Go To Poll</a></button>
 
         <button className="copyButton"><Link className="link" to='/'>Create Another Poll</Link></button>
 
